@@ -24,15 +24,15 @@ Our current mess management relies on **manual registers, handwritten tallies, a
 | **Manual meal tallying** | Vendors spend ~30 min/day counting registers across 3 meals |
 | **Billing disputes** | Students cannot verify their own expenditure — leads to trust issues |
 | **No transparency** | Students have zero visibility into how their ₹13,500 semester fee is utilized month-over-month |
-| **Meal wastage** | Without advance headcounts, vendors over-prepare food. Even 10% wastage on 150 students = ~15 meals wasted daily |
+| **Meal wastage** | Without advance headcounts, vendors over-prepare food. Even 10% wastage on 200 students = ~20 meals wasted daily |
 | **Register fraud** | Entries can be altered, missed, or fabricated — no audit trail |
-| **Billing errors** | Manual calculations across 150+ students for 90 days creates compounding errors |
+| **Billing errors** | Manual calculations across 200+ students for 90 days creates compounding errors |
 | **No accountability** | Absent-day deductions, plan allowances, and security deposits are tracked loosely at best |
 | **Communication gap** | Meal changes, parcel requests, and unlock requests require physically finding the vendor |
 
 ### Quantifying the Cost of Manual Operations
 
-For a hostel with **150 students** and a **6-month semester**:
+For a hostel with **200 students** and a **6-month semester**:
 
 | Metric | Manual System | With MEZZ |
 |---|---|---|
@@ -40,11 +40,11 @@ For a hostel with **150 students** and a **6-month semester**:
 | Time per month on billing calculations | ~8–10 hours | **0 hours** (instant) |
 | Billing disputes per semester (est.) | 15–25 cases | **0** (transparent, auditable) |
 | Food wastage due to inaccurate headcounts | ~10–15% daily | **< 3%** (real-time headcounts) |
-| Monthly food cost wastage (₹50 avg/meal × 15 wasted) | ~₹750/day = **₹22,500/month** | **< ₹6,750/month** |
-| Semester savings on food wastage alone | — | **₹94,500** |
+| Monthly food cost wastage (₹50 avg/meal × 20 wasted) | ~₹1,000/day = **₹30,000/month** | **< ₹9,000/month** |
+| Semester savings on food wastage alone | — | **₹1,26,000** |
 | Receipt generation & record keeping | Paper-based, losable | **Digital, permanent, PDF** |
 
-> **Conservative estimate: MEZZ saves the mess operation ₹94,500 per semester in food wastage reduction alone**, while eliminating hours of manual labor and billing disputes entirely.
+> **Conservative estimate: MEZZ saves the mess operation ₹1.2–1.5 lakhs per semester in food wastage reduction alone**, while eliminating hours of manual labor and billing disputes entirely.
 
 ---
 
@@ -105,7 +105,7 @@ This is not a simple prototype. MEZZ is a **production-grade application** built
 
 I am **not charging any development fee** for MEZZ. I have built this entirely on my own time, with my own resources, because I believe it solves a real problem.
 
-In return, I am requesting institutional support to cover my **education and living expenses for the remaining 3 semesters** (5th, 6th, 7th/8th semesters), so I can continue contributing to college-level technical projects without financial constraints.
+In return, I am requesting institutional support to cover my **education and living expenses for the remaining 3 semesters** (6th, 7th/8th semesters), so I can continue contributing to college-level technical projects without financial constraints.
 
 ### Breakdown
 
@@ -124,7 +124,8 @@ In return, I am requesting institutional support to cover my **education and liv
 | Eliminates ₹1.2–1.5L/semester food wastage | Freedom to focus on more technical work |
 | Zero billing disputes, full transparency | Resources to participate in hackathons and competitions |
 | Modern digital infrastructure for the hostel | Ability to pursue AI/ML research and projects |
-| Ongoing maintenance and updates from the developer | — |
+| Vendor-independent system that survives vendor changes | — |
+| Ongoing maintenance, updates, and new features | — |
 | **Software value: ₹1,00,000+** | **Total ask: ₹1,42,800** |
 
 > The app pays for itself within the **first semester** through food wastage reduction alone. The investment in my education is effectively **free** for the institution.
@@ -137,7 +138,7 @@ In return, I am requesting institutional support to cover my **education and liv
 
 | | |
 |---|---|
-| **Role** | AI/ML Mentor at GEC |
+| **Role** | AI/ML Mentor |
 | **Experience** | Building AI models and full-stack applications for 2+ years |
 | **Startups** | Founded **Kairo Studio** and **Internspirit** (paused due to limited funds and time) |
 | **Hackathons** | Active participant in national and regional hackathons |
@@ -148,6 +149,31 @@ I have consistently demonstrated initiative and technical capability. MEZZ is th
 
 ---
 
+## Built for the Long Term
+
+### Vendor-Independent & Flexible
+
+MEZZ is **not tied to any specific mess vendor**. If the college changes its mess contractor — which happens periodically — the app continues to work seamlessly. The new vendor simply creates an account, gets a new 6-digit code, and students re-link. All historical data, receipts, and billing records are preserved. **The investment in MEZZ outlasts any single vendor contract.**
+
+### Cross-Platform: Android, iOS & Web Ready
+
+MEZZ is built with Flutter, which means the **exact same codebase** runs natively on both Android and iOS. For iPhone users, we can publish the app on the **Apple App Store** alongside the **Google Play Store** — the only additional cost would be Apple's annual developer fee (₹8,000/year) and a one-time Play Store registration (₹2,100). The app itself requires **zero additional development** for iOS — it's already fully functional on both platforms.
+
+### Continuous Feature Development
+
+I am committed to **actively maintaining and improving MEZZ** as long as it is in use. New features can be rolled out based on feedback from students, vendors, and administration. Potential future additions include:
+
+- **Weekly/monthly analytics dashboard** for warden/administration oversight
+- **Menu of the day** display with vendor photo uploads
+- **Special meal days** (festivals, events) with custom pricing
+- **Complaint/grievance system** for mess quality issues
+- **Attendance integration** to cross-verify hostel presence
+- **Export to Excel** for administrative record-keeping
+
+The app grows with the college's needs — at no additional development cost.
+
+---
+
 ## Deployment Plan
 
 | Phase | Timeline | Action |
@@ -155,9 +181,10 @@ I have consistently demonstrated initiative and technical capability. MEZZ is th
 | **Phase 1** | Week 1 | Pilot with 1 hostel wing (~30 students). Collect feedback. |
 | **Phase 2** | Week 2–3 | Iterate based on feedback. Fix any edge cases. |
 | **Phase 3** | Week 4 | Full hostel rollout. Vendor training session. |
-| **Ongoing** | Semester-long | Maintenance, bug fixes, feature additions as needed. |
+| **Phase 4** | Week 5–6 | Publish on Play Store (and App Store if approved). |
+| **Ongoing** | Semester-long | Maintenance, bug fixes, new features as needed. |
 
-**No infrastructure cost.** The app runs on Firebase's free tier for up to 50,000 daily reads and 20,000 writes — more than sufficient for a college hostel. The only requirement is students having Android phones, which is universally the case.
+**No infrastructure cost.** The app runs on Firebase's free tier for up to 50,000 daily reads and 20,000 writes — more than sufficient for a college hostel. Works on any Android or iOS smartphone.
 
 ---
 
