@@ -24,15 +24,15 @@ Our current mess management relies on **manual registers, handwritten tallies, a
 | **Manual meal tallying** | Vendors spend ~30 min/day counting registers across 3 meals |
 | **Billing disputes** | Students cannot verify their own expenditure — leads to trust issues |
 | **No transparency** | Students have zero visibility into how their ₹13,500 semester fee is utilized month-over-month |
-| **Meal wastage** | Without advance headcounts, vendors over-prepare food. Even 10% wastage on 200 students = ~20 meals wasted daily |
+| **Meal wastage** | Without advance headcounts, vendors over-prepare food. Even 10% wastage on 150 students = ~15 meals wasted daily |
 | **Register fraud** | Entries can be altered, missed, or fabricated — no audit trail |
-| **Billing errors** | Manual calculations across 200+ students for 90 days creates compounding errors |
+| **Billing errors** | Manual calculations across 150+ students for 90 days creates compounding errors |
 | **No accountability** | Absent-day deductions, plan allowances, and security deposits are tracked loosely at best |
 | **Communication gap** | Meal changes, parcel requests, and unlock requests require physically finding the vendor |
 
 ### Quantifying the Cost of Manual Operations
 
-For a hostel with **200 students** and a **6-month semester**:
+For a hostel with **150 students** and a **6-month semester**:
 
 | Metric | Manual System | With MEZZ |
 |---|---|---|
@@ -40,11 +40,11 @@ For a hostel with **200 students** and a **6-month semester**:
 | Time per month on billing calculations | ~8–10 hours | **0 hours** (instant) |
 | Billing disputes per semester (est.) | 15–25 cases | **0** (transparent, auditable) |
 | Food wastage due to inaccurate headcounts | ~10–15% daily | **< 3%** (real-time headcounts) |
-| Monthly food cost wastage (₹50 avg/meal × 20 wasted) | ~₹1,000/day = **₹30,000/month** | **< ₹9,000/month** |
-| Semester savings on food wastage alone | — | **₹1,26,000** |
+| Monthly food cost wastage (₹50 avg/meal × 15 wasted) | ~₹750/day = **₹22,500/month** | **< ₹6,750/month** |
+| Semester savings on food wastage alone | — | **₹94,500** |
 | Receipt generation & record keeping | Paper-based, losable | **Digital, permanent, PDF** |
 
-> **Conservative estimate: MEZZ saves the mess operation ₹1.2–1.5 lakhs per semester in food wastage reduction alone**, while eliminating hours of manual labor and billing disputes entirely.
+> **Conservative estimate: MEZZ saves the mess operation ₹94,500 per semester in food wastage reduction alone**, while eliminating hours of manual labor and billing disputes entirely.
 
 ---
 
